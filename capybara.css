@@ -21,7 +21,7 @@ html, body {
 
 .main-nav {
   width: 800px;
-  margin-left: 200px;
+  margin-left: 250px;
   position: absolute;
   bottom: 0px;
 }
@@ -35,8 +35,8 @@ html, body {
     text-decoration: none;
     padding: 5px 10px;
     transition: bottom 300ms ease;
-    position:relative;
-    bottom: 15px;
+    position:;
+    bottom: -10px;
   }
 
     .main-nav a:hover {
