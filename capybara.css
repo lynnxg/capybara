@@ -35,13 +35,13 @@ html, body {
     text-decoration: none;
     padding: 5px 10px;
     transition: bottom 300ms ease;
-    position:;
+    position:relative;
     bottom: -10px;
   }
 
     .main-nav a:hover {
       bottom: -20px;
-	  transform:  translateY(8px);
+	  transform:  translateY(-13px);
     }
 
 .page-content {
