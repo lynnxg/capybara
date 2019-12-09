@@ -21,7 +21,7 @@ html, body {
 
 .main-nav {
   width: 800px;
-  margin-left: 250px;
+  margin-left: 200px;
   position: absolute;
   bottom: 0px;
 }
@@ -36,17 +36,17 @@ html, body {
     padding: 5px 10px;
     transition: bottom 300ms ease;
     position:relative;
-    bottom: -10px;
+    bottom: 15px;
   }
 
     .main-nav a:hover {
       bottom: -20px;
-	  transform:  translateY(-13px);
+	  transform:  translateY(-6px);
     }
 
 .page-content {
    margin-left: 200px;
-   padding: 50px;
+   padding: 75px;
 }
 
 
@@ -77,8 +77,14 @@ h2 {
 .right{
 
 float: right;
-padding: 0 3px 5px 0
+padding: 0 5px 5px 0
  
+}
+
+.page-nav {
+position: absolute;
+bottom: 550px;
+left: 30px;
 }
 
   .page-nav ul {
@@ -105,4 +111,3 @@ padding: 0 3px 5px 0
   text-decoration: none;
   font-weight: bold ;
   }
-
